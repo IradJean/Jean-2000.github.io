@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+
+}
+header{
+    background-image: url(bg.jpg);
+    height: 100vh;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+	margin-right: 30px;
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	color: white ;
+	padding: 5px 20px;
+	border: 2px solid goldenrod;
+}
+ul li a:hover{
+	background-color: green;
+}
